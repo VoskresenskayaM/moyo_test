@@ -1,0 +1,104 @@
+.header {
+    max-width: 1440px;
+    height: 64px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*background-color: aquamarine;*/
+    align-items: center;
+    font-family: 'Raleway';
+}
+
+.header__logo {
+    width: 144px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.header__burgerButton {
+    border: none;
+    background-color: var(--dark);
+    cursor: pointer;
+}
+
+.header__cityContainer {
+    width: 293px;
+    height: 37px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.header__signin {
+    width: 97px;
+    height: 37px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    background-color: var(--grey);
+    color: var(--light);
+    cursor: pointer;
+    border: none;
+    font-size: 14px;
+    font-family: 'Montserrat';
+}
+
+.header__city {
+    height: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.header__cityText {
+    font-size: 14px;
+    color: var(--light);
+}
+
+.header__cityArrow {
+    padding-top: 7px;
+}
+
+.headerForm {
+    min-width: 446px;
+    height: 36px;
+    background-color: var(--grey);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-left: 120px;
+}
+
+.headerForm__button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.headerForm__input {
+    width: 80%;
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    color: var(--light);
+}
+
+.headerForm__input:focus,
+.headerForm__input:hover,
+.headerForm__input:active {
+    outline: none;
+}

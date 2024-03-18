@@ -102,3 +102,13 @@
 .headerForm__input:active {
     outline: none;
 }
+
+.header__mobile {
+    padding-right: 20px;
+    padding-left: 14px;
+}
+
+.header__logoImg {
+    width: 89px;
+    height: 24px;
+}
